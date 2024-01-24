@@ -1,0 +1,1138 @@
+
+Test Case 1  		<single>
+   Number of source files to copy :  None
+
+
+Test Case 2  		<single>
+   Number of source directories to copy :  None
+
+
+Test Case 3  		<error>
+   Presence of destination directory :  Not Present
+
+
+Test Case 4  		<single>
+   number of command line arguments and options :  Zero
+
+
+Test Case 5  		(Key = 2.2.1.2.1.2.2.1.)
+   Number of source files to copy                                 :  One
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  existance of -v
+
+
+Test Case 6  		(Key = 2.2.1.2.1.2.2.2.)
+   Number of source files to copy                                 :  One
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  no existance of -v
+
+
+Test Case 7  		(Key = 2.2.1.2.1.2.2.4.)
+   Number of source files to copy                                 :  One
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  Yes
+
+
+Test Case 8  		(Key = 2.2.1.2.1.2.2.5.)
+   Number of source files to copy                                 :  One
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  No
+
+
+Test Case 9  		(Key = 2.2.1.2.2.2.2.1.)
+   Number of source files to copy                                 :  One
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  existance of -v
+
+
+Test Case 10 		(Key = 2.2.1.2.2.2.2.2.)
+   Number of source files to copy                                 :  One
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  no existance of -v
+
+
+Test Case 11 		(Key = 2.2.1.2.2.2.2.4.)
+   Number of source files to copy                                 :  One
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  Yes
+
+
+Test Case 12 		(Key = 2.2.1.2.2.2.2.5.)
+   Number of source files to copy                                 :  One
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  No
+
+
+Test Case 13 		(Key = 2.2.3.2.2.1.2.1.)
+   Number of source files to copy                                 :  One
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  existance of -v
+
+
+Test Case 14 		(Key = 2.2.3.2.2.1.2.2.)
+   Number of source files to copy                                 :  One
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  no existance of -v
+
+
+Test Case 15 		(Key = 2.2.3.2.2.1.2.3.)
+   Number of source files to copy                                 :  One
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  Remove current dest
+
+
+Test Case 16 		(Key = 2.2.3.2.2.1.2.4.)
+   Number of source files to copy                                 :  One
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  Yes
+
+
+Test Case 17 		(Key = 2.2.3.2.2.1.2.5.)
+   Number of source files to copy                                 :  One
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  No
+
+
+Test Case 18 		(Key = 2.2.3.2.2.2.2.1.)
+   Number of source files to copy                                 :  One
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  existance of -v
+
+
+Test Case 19 		(Key = 2.2.3.2.2.2.2.2.)
+   Number of source files to copy                                 :  One
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  no existance of -v
+
+
+Test Case 20 		(Key = 2.2.3.2.2.2.2.4.)
+   Number of source files to copy                                 :  One
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  Yes
+
+
+Test Case 21 		(Key = 2.2.3.2.2.2.2.5.)
+   Number of source files to copy                                 :  One
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  No
+
+
+Test Case 22 		(Key = 2.3.1.2.1.2.2.1.)
+   Number of source files to copy                                 :  One
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  existance of -v
+
+
+Test Case 23 		(Key = 2.3.1.2.1.2.2.2.)
+   Number of source files to copy                                 :  One
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  no existance of -v
+
+
+Test Case 24 		(Key = 2.3.1.2.1.2.2.4.)
+   Number of source files to copy                                 :  One
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  Yes
+
+
+Test Case 25 		(Key = 2.3.1.2.1.2.2.5.)
+   Number of source files to copy                                 :  One
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  No
+
+
+Test Case 26 		(Key = 2.3.1.2.2.2.2.1.)
+   Number of source files to copy                                 :  One
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  existance of -v
+
+
+Test Case 27 		(Key = 2.3.1.2.2.2.2.2.)
+   Number of source files to copy                                 :  One
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  no existance of -v
+
+
+Test Case 28 		(Key = 2.3.1.2.2.2.2.4.)
+   Number of source files to copy                                 :  One
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  Yes
+
+
+Test Case 29 		(Key = 2.3.1.2.2.2.2.5.)
+   Number of source files to copy                                 :  One
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  No
+
+
+Test Case 30 		(Key = 2.3.3.2.2.1.2.1.)
+   Number of source files to copy                                 :  One
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  existance of -v
+
+
+Test Case 31 		(Key = 2.3.3.2.2.1.2.2.)
+   Number of source files to copy                                 :  One
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  no existance of -v
+
+
+Test Case 32 		(Key = 2.3.3.2.2.1.2.3.)
+   Number of source files to copy                                 :  One
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  Remove current dest
+
+
+Test Case 33 		(Key = 2.3.3.2.2.1.2.4.)
+   Number of source files to copy                                 :  One
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  Yes
+
+
+Test Case 34 		(Key = 2.3.3.2.2.1.2.5.)
+   Number of source files to copy                                 :  One
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  No
+
+
+Test Case 35 		(Key = 2.3.3.2.2.2.2.1.)
+   Number of source files to copy                                 :  One
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  existance of -v
+
+
+Test Case 36 		(Key = 2.3.3.2.2.2.2.2.)
+   Number of source files to copy                                 :  One
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  no existance of -v
+
+
+Test Case 37 		(Key = 2.3.3.2.2.2.2.4.)
+   Number of source files to copy                                 :  One
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  Yes
+
+
+Test Case 38 		(Key = 2.3.3.2.2.2.2.5.)
+   Number of source files to copy                                 :  One
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  No
+
+
+Test Case 39 		(Key = 3.2.1.2.1.2.1.1.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  existance of -r
+   command line argument for explain what is being done  -v       :  existance of -v
+
+
+Test Case 40 		(Key = 3.2.1.2.1.2.1.2.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  existance of -r
+   command line argument for explain what is being done  -v       :  no existance of -v
+
+
+Test Case 41 		(Key = 3.2.1.2.1.2.1.4.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  existance of -r
+   command line argument for explain what is being done  -v       :  Yes
+
+
+Test Case 42 		(Key = 3.2.1.2.1.2.1.5.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  existance of -r
+   command line argument for explain what is being done  -v       :  No
+
+
+Test Case 43 		(Key = 3.2.1.2.1.2.2.1.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  existance of -v
+
+
+Test Case 44 		(Key = 3.2.1.2.1.2.2.2.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  no existance of -v
+
+
+Test Case 45 		(Key = 3.2.1.2.1.2.2.4.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  Yes
+
+
+Test Case 46 		(Key = 3.2.1.2.1.2.2.5.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  No
+
+
+Test Case 47 		(Key = 3.2.1.2.2.2.1.1.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  existance of -r
+   command line argument for explain what is being done  -v       :  existance of -v
+
+
+Test Case 48 		(Key = 3.2.1.2.2.2.1.2.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  existance of -r
+   command line argument for explain what is being done  -v       :  no existance of -v
+
+
+Test Case 49 		(Key = 3.2.1.2.2.2.1.4.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  existance of -r
+   command line argument for explain what is being done  -v       :  Yes
+
+
+Test Case 50 		(Key = 3.2.1.2.2.2.1.5.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  existance of -r
+   command line argument for explain what is being done  -v       :  No
+
+
+Test Case 51 		(Key = 3.2.1.2.2.2.2.1.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  existance of -v
+
+
+Test Case 52 		(Key = 3.2.1.2.2.2.2.2.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  no existance of -v
+
+
+Test Case 53 		(Key = 3.2.1.2.2.2.2.4.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  Yes
+
+
+Test Case 54 		(Key = 3.2.1.2.2.2.2.5.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  No
+
+
+Test Case 55 		(Key = 3.2.3.2.2.1.1.1.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  existance of -f
+   command line argument to copy directories recursively -r       :  existance of -r
+   command line argument for explain what is being done  -v       :  existance of -v
+
+
+Test Case 56 		(Key = 3.2.3.2.2.1.1.2.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  existance of -f
+   command line argument to copy directories recursively -r       :  existance of -r
+   command line argument for explain what is being done  -v       :  no existance of -v
+
+
+Test Case 57 		(Key = 3.2.3.2.2.1.1.3.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  existance of -f
+   command line argument to copy directories recursively -r       :  existance of -r
+   command line argument for explain what is being done  -v       :  Remove current dest
+
+
+Test Case 58 		(Key = 3.2.3.2.2.1.1.4.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  existance of -f
+   command line argument to copy directories recursively -r       :  existance of -r
+   command line argument for explain what is being done  -v       :  Yes
+
+
+Test Case 59 		(Key = 3.2.3.2.2.1.1.5.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  existance of -f
+   command line argument to copy directories recursively -r       :  existance of -r
+   command line argument for explain what is being done  -v       :  No
+
+
+Test Case 60 		(Key = 3.2.3.2.2.1.2.1.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  existance of -v
+
+
+Test Case 61 		(Key = 3.2.3.2.2.1.2.2.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  no existance of -v
+
+
+Test Case 62 		(Key = 3.2.3.2.2.1.2.3.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  Remove current dest
+
+
+Test Case 63 		(Key = 3.2.3.2.2.1.2.4.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  Yes
+
+
+Test Case 64 		(Key = 3.2.3.2.2.1.2.5.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  No
+
+
+Test Case 65 		(Key = 3.2.3.2.2.2.1.1.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  existance of -r
+   command line argument for explain what is being done  -v       :  existance of -v
+
+
+Test Case 66 		(Key = 3.2.3.2.2.2.1.2.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  existance of -r
+   command line argument for explain what is being done  -v       :  no existance of -v
+
+
+Test Case 67 		(Key = 3.2.3.2.2.2.1.4.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  existance of -r
+   command line argument for explain what is being done  -v       :  Yes
+
+
+Test Case 68 		(Key = 3.2.3.2.2.2.1.5.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  existance of -r
+   command line argument for explain what is being done  -v       :  No
+
+
+Test Case 69 		(Key = 3.2.3.2.2.2.2.1.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  existance of -v
+
+
+Test Case 70 		(Key = 3.2.3.2.2.2.2.2.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  no existance of -v
+
+
+Test Case 71 		(Key = 3.2.3.2.2.2.2.4.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  Yes
+
+
+Test Case 72 		(Key = 3.2.3.2.2.2.2.5.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  One
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  No
+
+
+Test Case 73 		(Key = 3.3.1.2.1.2.1.1.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  existance of -r
+   command line argument for explain what is being done  -v       :  existance of -v
+
+
+Test Case 74 		(Key = 3.3.1.2.1.2.1.2.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  existance of -r
+   command line argument for explain what is being done  -v       :  no existance of -v
+
+
+Test Case 75 		(Key = 3.3.1.2.1.2.1.4.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  existance of -r
+   command line argument for explain what is being done  -v       :  Yes
+
+
+Test Case 76 		(Key = 3.3.1.2.1.2.1.5.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  existance of -r
+   command line argument for explain what is being done  -v       :  No
+
+
+Test Case 77 		(Key = 3.3.1.2.1.2.2.1.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  existance of -v
+
+
+Test Case 78 		(Key = 3.3.1.2.1.2.2.2.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  no existance of -v
+
+
+Test Case 79 		(Key = 3.3.1.2.1.2.2.4.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  Yes
+
+
+Test Case 80 		(Key = 3.3.1.2.1.2.2.5.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  No
+
+
+Test Case 81 		(Key = 3.3.1.2.2.2.1.1.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  existance of -r
+   command line argument for explain what is being done  -v       :  existance of -v
+
+
+Test Case 82 		(Key = 3.3.1.2.2.2.1.2.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  existance of -r
+   command line argument for explain what is being done  -v       :  no existance of -v
+
+
+Test Case 83 		(Key = 3.3.1.2.2.2.1.4.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  existance of -r
+   command line argument for explain what is being done  -v       :  Yes
+
+
+Test Case 84 		(Key = 3.3.1.2.2.2.1.5.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  existance of -r
+   command line argument for explain what is being done  -v       :  No
+
+
+Test Case 85 		(Key = 3.3.1.2.2.2.2.1.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  existance of -v
+
+
+Test Case 86 		(Key = 3.3.1.2.2.2.2.2.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  no existance of -v
+
+
+Test Case 87 		(Key = 3.3.1.2.2.2.2.4.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  Yes
+
+
+Test Case 88 		(Key = 3.3.1.2.2.2.2.5.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Present
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  No
+
+
+Test Case 89 		(Key = 3.3.3.2.2.1.1.1.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  existance of -f
+   command line argument to copy directories recursively -r       :  existance of -r
+   command line argument for explain what is being done  -v       :  existance of -v
+
+
+Test Case 90 		(Key = 3.3.3.2.2.1.1.2.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  existance of -f
+   command line argument to copy directories recursively -r       :  existance of -r
+   command line argument for explain what is being done  -v       :  no existance of -v
+
+
+Test Case 91 		(Key = 3.3.3.2.2.1.1.3.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  existance of -f
+   command line argument to copy directories recursively -r       :  existance of -r
+   command line argument for explain what is being done  -v       :  Remove current dest
+
+
+Test Case 92 		(Key = 3.3.3.2.2.1.1.4.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  existance of -f
+   command line argument to copy directories recursively -r       :  existance of -r
+   command line argument for explain what is being done  -v       :  Yes
+
+
+Test Case 93 		(Key = 3.3.3.2.2.1.1.5.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  existance of -f
+   command line argument to copy directories recursively -r       :  existance of -r
+   command line argument for explain what is being done  -v       :  No
+
+
+Test Case 94 		(Key = 3.3.3.2.2.1.2.1.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  existance of -v
+
+
+Test Case 95 		(Key = 3.3.3.2.2.1.2.2.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  no existance of -v
+
+
+Test Case 96 		(Key = 3.3.3.2.2.1.2.3.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  Remove current dest
+
+
+Test Case 97 		(Key = 3.3.3.2.2.1.2.4.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  Yes
+
+
+Test Case 98 		(Key = 3.3.3.2.2.1.2.5.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  No
+
+
+Test Case 99 		(Key = 3.3.3.2.2.2.1.1.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  existance of -r
+   command line argument for explain what is being done  -v       :  existance of -v
+
+
+Test Case 100		(Key = 3.3.3.2.2.2.1.2.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  existance of -r
+   command line argument for explain what is being done  -v       :  no existance of -v
+
+
+Test Case 101		(Key = 3.3.3.2.2.2.1.4.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  existance of -r
+   command line argument for explain what is being done  -v       :  Yes
+
+
+Test Case 102		(Key = 3.3.3.2.2.2.1.5.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  existance of -r
+   command line argument for explain what is being done  -v       :  No
+
+
+Test Case 103		(Key = 3.3.3.2.2.2.2.1.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  existance of -v
+
+
+Test Case 104		(Key = 3.3.3.2.2.2.2.2.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  no existance of -v
+
+
+Test Case 105		(Key = 3.3.3.2.2.2.2.4.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  Yes
+
+
+Test Case 106		(Key = 3.3.3.2.2.2.2.5.)
+   Number of source files to copy                                 :  Many
+   Number of source directories to copy                           :  Many
+   Presence of destination directory                              :  Cant Open
+   number of command line arguments and options                   :  one or more
+   command line argument for backup -b                            :  no existance of -b
+   command line argument for destination file cannot be opened -f :  no existance of -f
+   command line argument to copy directories recursively -r       :  no existance of -r
+   command line argument for explain what is being done  -v       :  No
+

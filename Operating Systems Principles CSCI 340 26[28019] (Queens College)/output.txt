@@ -1,0 +1,20 @@
+Worker Child Pthread Number = 0 : 	 Geometric Average = 338.580505 	 Arithmetic Average = 478.151000 	 Sum = 478151 
+Worker Child Pthread Number = 1 : 	 Geometric Average = 362.803589 	 Arithmetic Average = 489.081000 	 Sum = 489081 
+Worker Child Pthread Number = 2 : 	 Geometric Average = 0.000000 	 Arithmetic Average = 504.721000 	 Sum = 504721 
+Worker Child Pthread Number = 4 : 	 Geometric Average = 0.000000 	 Arithmetic Average = 512.066000 	 Sum = 512066 
+Worker Child Pthread Number = 5 : 	 Geometric Average = 0.000000 	 Arithmetic Average = 510.150000 	 Sum = 510150 
+Worker Child Pthread Number = 3 : 	 Geometric Average = 0.000000 	 Arithmetic Average = 494.220000 	 Sum = 494220 
+Worker Child Pthread Number = 6 : 	 Geometric Average = 357.302948 	 Arithmetic Average = 497.910000 	 Sum = 497910 
+Worker Child Pthread Number = 9 : 	 Geometric Average = 0.000000 	 Arithmetic Average = 495.359000 	 Sum = 495359 
+Worker Child Pthread Number = 10 : 	 Geometric Average = 0.000000 	 Arithmetic Average = 514.956000 	 Sum = 514956 
+Worker Child Pthread Number = 8 : 	 Geometric Average = 354.161530 	 Arithmetic Average = 489.044000 	 Sum = 489044 
+Worker Child Pthread Number = 11 : 	 Geometric Average = 370.254822 	 Arithmetic Average = 511.908000 	 Sum = 511908 
+Worker Child Pthread Number = 12 : 	 Geometric Average = 0.000000 	 Arithmetic Average = 489.091000 	 Sum = 489091 
+Worker Child Pthread Number = 14 : 	 Geometric Average = 360.498566 	 Arithmetic Average = 493.538000 	 Sum = 493538 
+Worker Child Pthread Number = 13 : 	 Geometric Average = 0.000000 	 Arithmetic Average = 523.332000 	 Sum = 523332 
+Worker Child Pthread Number = 15 : 	 Geometric Average = 0.000000 	 Arithmetic Average = 491.037000 	 Sum = 491037 
+Worker Child Pthread Number = 7 : 	 Geometric Average = 0.000000 	 Arithmetic Average = 500.935000 	 Sum = 500935 
+Main program thread: Max of the Geometric Averages = 370.254822 
+Main program thread: Max of the Arithmetic Averages = 523.332000 
+Main program thread: Max of the Sums = 523332 
+Main program thread: Terminating. 

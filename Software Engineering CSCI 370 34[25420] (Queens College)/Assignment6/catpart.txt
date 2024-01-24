@@ -1,0 +1,50 @@
+# Files
+  Number of source files to copy:
+      None.              [single]   [property noFile]
+      One.
+      Many.                         [property moreThen1]
+
+   Number of source directories to copy:
+      None.              [single]   [property noDir]
+      One.
+      Many.                         [property moreThen1Dir]
+
+  Presence of destination directory:
+      Present.                  [if !noFile && !noDir] [property backup]
+      Not Present.              [error]
+      Cant Open.                [if !noFile && !noDir] [property invalid]
+
+# OPTIONS
+  number of command line arguments and options:
+      Zero.                   [single]  [property optZero]
+      one or more.               
+
+  command line argument for backup -b:
+      existance of -b.           [if !optZero && backup]          
+      no existance of -b.        [if !optZero]
+
+  command line argument for destination file cannot be opened -f:
+      existance of -f.           [if !optZero && invalid]  [property tryAgain]         
+      no existance of -f.        [if !optZero]
+  
+  command line argument to copy directories recursively -r:
+      existance of -r.           [if !optZero && moreThen1] [property recursive]         
+      no existance of -r.        [if !optZero] 
+      
+  command line argument for explain what is being done  -v:
+      existance of -v.           [if !optZero] [property explain]           
+      no existance of -v.        [if !optZero] 
+
+# Remake destination directory
+      Remove current dest.          [if tryAgain && !noFile && !noDir] [property createNew]
+
+# Copy recursively
+      Yes.                      [if !noFile || !noDir] 
+      No.
+
+# explain
+      No files to copy.             [if explain && noFile && noDir]
+      No destination.               [if explain && !backup]
+      Backed up destination.        [if explain && backup]
+      Overwrote destination.        [if explain && createNew]
+  
